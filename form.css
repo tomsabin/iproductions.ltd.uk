@@ -1,0 +1,28 @@
+h1 a {background-color:#000; min-height:0; height:0;}
+
+/* Backgrounds */
+body{background-image:none;background-color:#000}
+h1{background-image:none;background-color:#000}
+#container{background:#000;text-align:center;}
+.wufoo input.text, .wufoo textarea.textarea{background-image: url(http://iproductions.ltd.uk/images/textbox.jpg);background-position: center;border:1px solid #333}
+.wufoo .focused{background:#CCC}
+.wufoo .instruct{background-color:#000}
+.button{border: 1px dotted #666;background: #000;color: #438FCC;font-weight: bold}
+
+/* Borders */
+#container{border:0}
+.wufoo .info{border:0}
+.wufoo .section{border:0}
+.wufoo .instruct{border:0}
+
+/* Typography */
+.wufoo .info h2{font-size:12px;font-family:"Helvetica";color:#CCC}
+.wufoo .info div{font-size:0%;font-family:inherit;color:#000}
+.wufoo .section h3{font-size:0%;font-family:inherit;color:#000}
+.wufoo .section div{font-size:0%;font-family:inherit;color:#000}
+.wufoo label.desc{font-size:12px;font-family:"Helvetica";color:#CCC}
+.wufoo li div, .wufoo li div label, .wufoo li span label{font-family:inherit;color:#CCC}
+.wufoo input.text, .wufoo textarea.textarea, .wufoo select.select, .wufoo label.choice{font-size:12px;font-family:inherit;color:#CCC}
+.wufoo label.choice{color:#CCC}
+.wufoo .instruct{font-size:12px;font-family:"Helvetica";color:#CCC
+}

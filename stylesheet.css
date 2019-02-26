@@ -1,0 +1,465 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(images/bg.jpg) repeat-x #000;
+  min-width: 750px;
+  font-family: "Helvetica";
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #CCC;
+}
+#container {
+  margin: 0 auto;
+  width: 700px;
+  background: ;
+}
+#topheader{
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  height: 35px;
+}
+#gap {
+  margin: 0;
+  padding: 0;
+  height: 15px;
+}
+#header {
+  margin: 0;
+  padding: 0;
+  background: url(images/header2.jpg);
+  height: 250px;
+}
+#menu,
+#dropdown {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  list-style: none;
+  overflow: hidden;
+  font-family: "Helvetica";
+}
+#menu {
+  margin-top: 15px;
+  padding-top: 10px;
+  padding-left: 84px;
+}
+#menu li {
+  float: left;
+}
+#menu li a {
+  margin: 0 25px;
+  padding: 0;
+  color: #438FCC;
+  display: block;
+  font-size: 11px;
+  text-transform: uppercase;
+  border-bottom: 1px solid #000;
+}
+#menu li a:hover {
+    text-decoration:none;
+    color:#FFF;
+  border-bottom: 1px dotted #FFF;
+}
+#dropdown {
+  position: absolute;
+  display: none;
+  z-index: 50;
+  background: #000;
+  width: 134px;
+}
+#dropdown li {
+  float: none;
+}
+#dropdown li a {
+    color: #438FCC;
+}
+#dropdown li a:hover {
+  border-bottom: 1px solid #000;
+}
+#media:hover #dropdown {
+  display: block;
+}
+#content {
+  padding: 15px 15px;
+  height: 150px;
+  background: #000;
+}
+p {
+  text-align: justify;
+}
+.style1 {
+  color: #72A1C3;
+}
+.style0 {
+  color: #999;
+}
+/* ------------------------------ Home */
+#colleft {
+  margin-top: 7px;
+  padding: 0;
+  width: 328px;
+  float: left;
+}
+.left {
+  margin: 10px 0;
+  padding-left: 3px;
+  line-height: 16px;
+  color: #CCC;
+  text-align: left;
+  list-style-image: url(images/bullet.jpg);
+}
+.left li {
+  margin: 5px 0;
+}
+.right {
+  margin: 10px 0;
+  padding: 0 0 0 13px;
+  line-height: 16px;
+  color: #CCC;
+  text-align: left;
+  list-style-image: url(images/bullet.jpg);
+}
+.right li {
+  margin: 5px 0;
+}
+#colright {
+  margin-top: 7px;
+  width: 327px;
+  float: right;
+}
+.p1 {
+  padding-top: 10px;
+}
+.p2 {
+  padding-top: 10px;
+}
+
+.image {
+  position:relative;
+}
+
+.image .captionlt {
+  position:absolute;
+  top: 200px; /* in conjunction with left property, decides the text position */
+  width: 327px; /* optional, though better have one */
+  height: 34px;
+  background-color: #000;
+  opacity: 0.7;
+  filter: alpha(opacity=70); /* For IE8 and earlier */
+}
+
+.image .captionlt p {
+  padding-left: 10px;
+  color: #fff;
+}
+
+.image .captionlb {
+  position:absolute;
+  top: 210px; /* in conjunction with left property, decides the text position */
+  width: 327px; /* optional, though better have one */
+  height: 34px;
+  background-color: #000;
+  opacity: 0.7;
+  filter: alpha(opacity=70); /* For IE8 and earlier */
+}
+
+.image .captionlb p {
+  padding-left: 10px;
+  color: #fff;
+}
+
+.image .captionrt {
+  position:absolute;
+  top: 191px; /* in conjunction with left property, decides the text position */
+  width: 327px; /* optional, though better have one */
+  height: 34px;
+  background-color: #000;
+  opacity: 0.7;
+  filter: alpha(opacity=70); /* For IE8 and earlier */
+}
+
+.image .captionrt p {
+  padding-left: 10px;
+  color: #fff;
+}
+
+.image .captionrb {
+  position:absolute;
+  top: 200px; /* in conjunction with left property, decides the text position */
+  width: 327px; /* optional, though better have one */
+  height: 34px;
+  background-color: #000;
+  opacity: 0.7;
+  filter: alpha(opacity=70); /* For IE8 and earlier */
+}
+
+.image .captionrb p {
+  padding-left: 10px;
+  color: #fff;
+}
+
+
+/* ------------------------------ Experience */
+#floatright {
+  margin-top: 20px;
+  width: 280px;
+  float: right;
+}
+.p4,
+.p5 {
+  margin: 10px 0 0 0;
+  border: 1px solid #438FCC;
+}
+.p4 {
+  margin-left: 12px;
+}
+.p4:hover,
+.p5:hover {
+  border: 1px solid #FFF;
+}
+h1 {
+  font-family: "Helvetica";
+  font-weight: normal;
+  font-size: 12px;
+  margin: 0;
+  padding: 15px 0 0 0;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #CCC;
+}
+.about {
+  margin: 0;
+  padding: 0 15px;
+  line-height: 16px;
+  color: #CCC;
+  text-align: left;
+  list-style-image: url(images/bullet.jpg);
+}
+.about li {
+  margin: 5px 0;
+}
+.about li a {
+    text-decoration: none;
+    color: #438FCC;
+}
+.about li a:hover {
+    text-decoration: none;
+    color: #CCC;
+  border-bottom: 1px solid #CCC;
+}
+/* ------------------------------ Credits */
+h2 {
+  font-family: "Helvetica";
+  font-weight: normal;
+  font-size: 12px;
+  margin: 0;
+  padding: 10px 0 0 0;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #CCC;
+}
+#creditlist {
+  margin-top: 5px;
+  padding: 0;
+  width: 528px;
+  float: left;
+}
+#logos {
+  margin-top: 20px;
+  padding: 0;
+  width: 127px;
+  float: right;
+}
+#logolist {
+  margin: 0;
+  padding: 0;
+}
+#logolist li {
+  margin-top: 2px;
+  padding: 0;
+  list-style: none;
+}
+#logolist li a img {
+  border: 1px solid #438FCC;
+}
+#logolist li a img:hover {
+  border: 1px solid #FFF;
+}
+.credits {
+  margin: 0;
+  padding: 0;
+  line-height: 16px;
+  color: #CCC;
+  text-align: left;
+  list-style: none;
+}
+.credits li {
+    margin: 0;
+  padding: 0;
+    list-style: none;
+    font-size: 12px;
+  margin-left: 50px;
+  line-height: 16px;
+}
+.credits li a {
+    text-decoration: none;
+    color: #438FCC;
+}
+.credits li a:hover {
+    text-decoration: none;
+    color: #CCC;
+  border-bottom: 1px solid #CCC;
+}
+/* ------------------------------ Media */
+#mediapage {
+  margin: 20px 5px 0 0;
+  padding: 0;
+}
+#mediapage li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: inline;
+}
+.picture {
+  margin: 0;
+  padding: 0;
+  float: left;
+  background-color: #000;
+  border: 1px solid #438FCC;
+}
+.picture:hover {
+  border: 1px solid #CCC;;
+  vertical-align: middle;
+  margin-bottom: 3px;
+}
+.picture img {
+  border: 0;
+  vertical-align:middle;
+  margin-bottom: 3px;
+}
+.left {
+  margin-left: 11px;
+}
+h5 {
+  color: #CCC;
+  text-decoration: none;
+  margin: 10px 0;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 0;
+  text-align: center;
+}
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+}
+/* ------------------------------ Photos */
+#gallery {
+  margin: 17px 3px;
+  padding: 0;
+  width: 670px;
+  list-style: none;
+  overflow: hidden;
+  float: left;
+}
+#gallery li {
+  float: left;
+  padding: 0 10px 15px 5px;
+}
+#gallery li a img {
+  border: 1px solid #438FCC;
+  padding: 0;
+}
+#gallery li a img:hover {
+  border: 1px solid #FFF;
+  padding: 0;
+}
+h4 {
+  margin: 10px 0 0 0;
+  padding: 0;
+  text-align: center;
+  font-family: "helvetica";
+  font-weight: normal;
+  font-size: 16px;
+}
+#albums {
+  margin: 10px 3px;
+  padding: 0;
+  width: 670px;
+  list-style: none;
+  overflow: hidden;
+  float: left;
+}
+#albums li {
+  float: left;
+  margin: 0 10px 15px 5px;
+  border: 1px solid #438FCC;
+}
+/* ------------------------------ Videos */
+#videos {
+  margin: 20px 8px 0 8px;
+  padding: 0;
+  line-height: 16px;
+  color: #CCC;
+  text-align: left;
+  list-style: none;
+}
+#videos li {
+    margin: 0 0 10px 0;
+  padding: 0;
+    list-style: none;
+    font-size: 12px;
+  line-height: 16px;
+}
+#videos li a {
+    text-decoration: none;
+    color: #438FCC;
+}
+#videos li a:hover {
+    text-decoration:none;
+    color:#CCC;
+  border-bottom: 1px solid #CCC;
+}
+.video {
+  margin: 15px 8px;
+  border: 1px solid #438FCC;
+}
+/* ------------------------------ Contact */
+#contact {
+  margin-top: 5px;
+  text-align: center;
+}
+#contact a {
+    text-decoration: none;
+    color: #438FCC;
+}
+#contact a:hover {
+    text-decoration:none;
+    color:#FFF;
+  border-bottom: 1px dotted #FFF;
+}
+strong {
+  text-decoration: none;
+  padding: 0 0 15px 0;
+}
+#form {
+  background-color: #000;
+  margin: 0 auto;
+  width: 300px;
+}
+.style2 {
+  font-size: 10px;
+  color: #333;
+}
